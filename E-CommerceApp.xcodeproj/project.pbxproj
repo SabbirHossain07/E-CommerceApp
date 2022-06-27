@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		387F44BD2864C5890043686C /* E_CommerceAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F44BC2864C5890043686C /* E_CommerceAppApp.swift */; };
-		387F44BF2864C5890043686C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F44BE2864C5890043686C /* ContentView.swift */; };
 		387F44C12864C58B0043686C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387F44C02864C58B0043686C /* Assets.xcassets */; };
 		387F44C42864C58B0043686C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387F44C32864C58B0043686C /* Preview Assets.xcassets */; };
+		387F44DA2864C6910043686C /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F44CB2864C6910043686C /* CartManager.swift */; };
+		387F44DB2864C6910043686C /* PaymentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F44CC2864C6910043686C /* PaymentHandler.swift */; };
+		387F44DC2864C6910043686C /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F44CE2864C6910043686C /* Product.swift */; };
+		387F44DD2864C6910043686C /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F44CF2864C6910043686C /* Cart.swift */; };
+		387F44DE2864C6910043686C /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F44D12864C6910043686C /* ProductCard.swift */; };
+		387F44DF2864C6910043686C /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F44D22864C6910043686C /* ProductRow.swift */; };
+		387F44E02864C6910043686C /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F44D32864C6910043686C /* ProductDetailView.swift */; };
+		387F44E12864C6910043686C /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F44D42864C6910043686C /* CartView.swift */; };
+		387F44E22864C6910043686C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F44D52864C6910043686C /* ContentView.swift */; };
+		387F44E32864C6910043686C /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F44D62864C6910043686C /* ProductListView.swift */; };
+		387F44E42864C6910043686C /* ApplePayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F44D72864C6910043686C /* ApplePayButton.swift */; };
+		387F44E52864C6910043686C /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387F44D92864C6910043686C /* UIImage+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		387F44B92864C5890043686C /* E-CommerceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-CommerceApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		387F44BC2864C5890043686C /* E_CommerceAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_CommerceAppApp.swift; sourceTree = "<group>"; };
-		387F44BE2864C5890043686C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		387F44C02864C58B0043686C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		387F44C32864C58B0043686C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		387F44CB2864C6910043686C /* CartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		387F44CC2864C6910043686C /* PaymentHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentHandler.swift; sourceTree = "<group>"; };
+		387F44CE2864C6910043686C /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		387F44CF2864C6910043686C /* Cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		387F44D12864C6910043686C /* ProductCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		387F44D22864C6910043686C /* ProductRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		387F44D32864C6910043686C /* ProductDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		387F44D42864C6910043686C /* CartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		387F44D52864C6910043686C /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		387F44D62864C6910043686C /* ProductListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		387F44D72864C6910043686C /* ApplePayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplePayButton.swift; sourceTree = "<group>"; };
+		387F44D92864C6910043686C /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +74,10 @@
 			isa = PBXGroup;
 			children = (
 				387F44BC2864C5890043686C /* E_CommerceAppApp.swift */,
-				387F44BE2864C5890043686C /* ContentView.swift */,
+				387F44D82864C6910043686C /* Helpers */,
+				387F44CA2864C6910043686C /* Managers */,
+				387F44CD2864C6910043686C /* Models */,
+				387F44D02864C6910043686C /* Views */,
 				387F44C02864C58B0043686C /* Assets.xcassets */,
 				387F44C22864C58B0043686C /* Preview Content */,
 			);
@@ -65,6 +90,46 @@
 				387F44C32864C58B0043686C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		387F44CA2864C6910043686C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				387F44CB2864C6910043686C /* CartManager.swift */,
+				387F44CC2864C6910043686C /* PaymentHandler.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		387F44CD2864C6910043686C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				387F44CE2864C6910043686C /* Product.swift */,
+				387F44CF2864C6910043686C /* Cart.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		387F44D02864C6910043686C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				387F44D12864C6910043686C /* ProductCard.swift */,
+				387F44D22864C6910043686C /* ProductRow.swift */,
+				387F44D32864C6910043686C /* ProductDetailView.swift */,
+				387F44D42864C6910043686C /* CartView.swift */,
+				387F44D52864C6910043686C /* ContentView.swift */,
+				387F44D62864C6910043686C /* ProductListView.swift */,
+				387F44D72864C6910043686C /* ApplePayButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		387F44D82864C6910043686C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				387F44D92864C6910043686C /* UIImage+Extension.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +202,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				387F44BF2864C5890043686C /* ContentView.swift in Sources */,
+				387F44E52864C6910043686C /* UIImage+Extension.swift in Sources */,
+				387F44E32864C6910043686C /* ProductListView.swift in Sources */,
+				387F44E12864C6910043686C /* CartView.swift in Sources */,
 				387F44BD2864C5890043686C /* E_CommerceAppApp.swift in Sources */,
+				387F44E42864C6910043686C /* ApplePayButton.swift in Sources */,
+				387F44E02864C6910043686C /* ProductDetailView.swift in Sources */,
+				387F44DC2864C6910043686C /* Product.swift in Sources */,
+				387F44DD2864C6910043686C /* Cart.swift in Sources */,
+				387F44DB2864C6910043686C /* PaymentHandler.swift in Sources */,
+				387F44E22864C6910043686C /* ContentView.swift in Sources */,
+				387F44DF2864C6910043686C /* ProductRow.swift in Sources */,
+				387F44DA2864C6910043686C /* CartManager.swift in Sources */,
+				387F44DE2864C6910043686C /* ProductCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
